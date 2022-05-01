@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-image: url("Images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+img.heading{
+	height: 150px;
+	width: 1510px;
+}
+
+div.heading
+{
+	height: auto;
+	width: auto;
+    text-align: center;
+}
+
+hr
+{
+    height: 5px;
+    background-color: #000000;
+	border: none;
+}
+
+input
+{
+	border-radius: 10px;
+}
+
+div.space
+{
+	height: 50px;
+}
+
+div.login
+{
+	border: solid;
+	border-radius: 20px;
+	margin-left: 600px;
+	margin-right: 600px;
+	text-align: center;
+	background-color: #5458AA;
+	width: 400px;
+	height: 400px;
+}
+
+h1.login
+{
+	text-align: center;
+	color: #2B0757;
+	font-size: 30px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
+}
+
+/*div.sub
+{
+	background-color: #010215;
+}*/
+
+table.login
+{
+	width: 300px;
+	height: 100px;
+	margin-left: 50px;
+	text-align: center;
+	background-color: #5458AA;
+}
+
+button.fgtpword
+{
+	border: none;
+	background-color:#060B51;
+	border-radius: 10px;
+	color: #FFFDFD;
+	font-size: 20px;
+}
+
+button.log
+{
+	border: none;
+	background-color:#060B51;
+	border-radius: 10px;
+	color: #FFFDFD;
+	font-size: 20px;
+}
+
+input.log
+{
+	border: none;
+	background-color:#060B51;
+	border-radius: 10px;
+	color: #FFFDFD;
+	font-size: 20px;
+}
+
+button.newacc
+{
+	border: none;
+	background-color:#060B51;
+	border-radius: 10px;
+	color: #FFFDFD;
+	font-size: 20px;
+}
+
+h1.adduser
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-size: 26px;
+	
+}
+
+div.adduser
+{
+	width: auto;
+	height: auto;
+	background-color: #938D8D;
+	border: solid;
+	border-radius: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+}
+
+table.adduser
+{
+	margin-bottom: 8px;
+}
+
+div.toolbar
+{
+	width: auto;
+	height: auto;
+	background-color: #000000;
+}
+
+/*table.search
+{
+	float: right;
+}*/
+
+img.search
+{
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	
+}
+
+input.search
+{
+	margin-right: 30px;
+}
+
+img.cart
+{
+	height: 40px;
+	width: 40px;
+	border: medium;
+	margin-right: 30px;
+}
+
+button.login
+{
+	border: none;
+	margin-right: 30px;
+	background-color:transparent;
+	color: #FFFDFD;
+	font-size: 20px;
+}
+
+div.item
+{
+	background-color: #3F4059;
+	border: solid;
+	border: #202247;
+	border-radius: 50px;
+	color: aliceblue;
+	text-align:justify;
+	height: 100px;
+	width: auto;
+	height: auto;
+	display: flex;
+}
+
+div.itemimage
+{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	border: solid;
+	border-color: #000000;
+	background-color: #010140;
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+img.item
+{
+	margin-top: 5px;
+	height: 190px;
+	width: 190px;
+}
+
+div.itemdetails
+{
+	width: 700px;
+	height: 200px;
+	border-radius: 30px;
+	border: solid;
+	border-color: #000000;
+	background-color: #010140;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div.button
+{
+	width: 300px;
+	height: 200px;
+	border: solid;
+	border-color: #000000;
+	border-radius: 30px;
+	background-color: #010140;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+button.item
+{
+	border: solid;
+	border-color: #FFFFFF;
+	background-color: #005EA6;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+img.acc
+{
+	height: 40px;
+	width: 40px;
+	border: medium;
+	margin-right: 30px;
+}
+
+div.additem
+{
+	width: auto;
+	height: auto;
+	background-color: #020B27;
+	border: solid;
+	border: #000000;
+	border-radius: 30px;
+	color: aliceblue;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 20px;
+}
+
+h1.additem
+{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-size: 30px;
+}
+
+button.add
+{
+	align-self: center;
+	border: solid;
+	border-color: #FFFFFF;
+	background-color: #045053;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+input.add
+{
+	border: solid;
+	border-color: #FFFFFF;
+	background-color: #045053;
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+div.contactr
+{
+	width: auto;
+	height: auto;
+	border-radius: 50px;
+	background-color: #8D035A;
+	text-align: center;
+	font-size: 24px;
+	box-shadow: 2px 2px 20px 23px #8D035A;
+}
+
+h1.contactr
+{
+	margin-top: 10px;
+	font-size: 60px;
+}
+
+div.contact
+{	
+	width: auto;
+	height: auto;
+	background-color: #1F043D;
+	box-shadow: 2px 2px 20px 23px #1F043D;
+}
+
+table.contactr
+{
+	align-content: center;
+	color: #FFFFFF;
+	margin-left: 42%;
+	margin-right: 50%;
+}
+
+div.footer
+{
+	height: auto;
+	width: auto;
+	border: none;
+    text-align: center;
+	position: relative;
+	bottom: 2px;
+}
+
+img.footer
+{
+	height: 50px;
+	width: 50px;
+}
